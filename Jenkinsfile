@@ -1,6 +1,4 @@
-
-oode {
-nodes([
+properties([
     buildDiscarder(logRotator(numToKeepStr: '5')),
     pipelineTriggers([
         pollSCM('H/5 * * * *'),
@@ -17,13 +15,5 @@ timestamps() {
                 }
             }
         }
-    }
-}t {
-    stage('Greeting') {
-        echo 'Hello, World!'
-    }
-}
-    stage('Greeting') {
-        echo 'Hello, World!'
     }
 }

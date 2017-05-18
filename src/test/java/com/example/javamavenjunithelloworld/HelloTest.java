@@ -52,4 +52,9 @@ public class HelloTest {
         Hello hi = new Hello();
         hi.setTimes(-1);
     }
+
+    @Test
+    public void fail() {
+        fail("unstable build");
+    }
 }

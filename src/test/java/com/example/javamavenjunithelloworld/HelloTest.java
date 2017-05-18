@@ -55,6 +55,6 @@ public class HelloTest {
 
     @Test
     public void fail() {
-        fail();
+        assertThat(1, is(equalTo(2)));
     }
 }

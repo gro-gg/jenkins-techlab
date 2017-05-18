@@ -55,6 +55,6 @@ public class HelloTest {
 
     @Test
     public void fail() {
-        fail("unstable build");
+        fail();
     }
 }
